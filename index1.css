@@ -196,8 +196,7 @@ section{
     margin: 0 auto;
     width:70%;
     text-align: center;
-    margin-top:50px;
-    margin-bottom: 50px;
+  margin-bottom: 30px;
  }
  .yoga{
     margin-left: 30px;
@@ -231,7 +230,7 @@ font-weight: bold;
 
 .map{
     width:70%;
-    height:300px;
+    height:200px;
     margin: 0 auto;
 }
 .iframe{
@@ -262,6 +261,7 @@ margin: 0;
     position:absolute;
     top:50%;
     left: 50%;
+    height:80%;
     transform: translate(-50%,-50%);
 }
 }
