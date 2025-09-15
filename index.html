@@ -95,19 +95,25 @@
 
   <!-- Initialize Swiper -->
 <script>
-  var swiper = new Swiper(".mySwiper", {
-    direction: "vertical",
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-     autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-    mousewheel: true,
-  
-  });
+var swiper = new Swiper(".mySwiper", {
+  direction: "vertical",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  mousewheel: true,
+  loop: false, // 무한 반복 금지
+});
+
+// 마지막 슬라이드 도달 시 autoplay 정지
+swiper.on("reachEnd", function () {
+  swiper.autoplay.stop();
+});
+
 </script>
 </body>
 
