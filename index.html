@@ -21,7 +21,7 @@
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide section section1"><div class="boda">나를 보다</div>
+      <div class="swiper-slide section section1"><div class="boda"><img src="./투명.png" width="20%">나를 보다</div>
       <!-- 폰 번호 -->
     <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
 
@@ -34,7 +34,19 @@
     </div>
 
 
-      <div class="swiper-slide section section2"><div class="subtitle">너는 지금 어때?</div>
+      <div class="swiper-slide section section2"><div class="subtitle">너는 지금 어때?<br>잘 지내?</div>
+         <!-- 폰 번호 -->
+    <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
+
+      <!-- 아래 슬라이드 btn -->
+    <div class="btn-motion6">
+      <span></span>
+      <span></span>
+      <span></span>      
+  </div>
+      </div>
+
+        <div class="swiper-slide section section3"><div class="subtitle"><img src="sick.png" alt=""></div>
          <!-- 폰 번호 -->
     <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
 
@@ -50,7 +62,7 @@
    
 
 
-       <div class="swiper-slide section section3"><div class="subtitle">치유</div>
+       <div class="swiper-slide section section4"><div class="subtitle">어떻게 하면 안 아플까?</div>
          <!-- 폰 번호 -->
     <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
 
@@ -61,7 +73,29 @@
       <span></span>      
   </div>
       </div>
-      <div class="swiper-slide section section4"><div class="subtitle">어떻게 하면 안 아플까?</div>
+      <div class="swiper-slide section section5"><div class="subtitle"><img src="./투명.png" width="40%"></div>
+        <!-- 폰 번호 -->
+    <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
+
+      <!-- 아래 슬라이드 btn -->
+    <div class="btn-motion6">
+      <span></span>
+      <span></span>
+      <span></span>      
+  </div> </div>
+
+    <div class="swiper-slide section section6"><div class="subtitle">이완의 노력</div>
+        <!-- 폰 번호 -->
+    <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
+
+      <!-- 아래 슬라이드 btn -->
+    <div class="btn-motion6">
+      <span></span>
+      <span></span>
+      <span></span>      
+  </div>
+       </div>
+   <div class="swiper-slide section section7"><div class="subtitle">스마일</div>
         <!-- 폰 번호 -->
     <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
 
@@ -72,9 +106,10 @@
       <span></span>      
   </div>
       </div>
-      <div class="swiper-slide section5">
+
+      <div class="swiper-slide section8">
         <div class="last_center">
-        <div class="last"><div class="boda">보다<span class="yoga">yoga</span></div></div>
+        <div class="last"><div class="boda"><img src="./투명.png" width="10%">보다<span class="yoga">yoga</span></div></div>
 
       <div class="map">
        <div class="phone_last"><i class="fa-solid fa-phone"></i>010-9388-8557   <span class="address"><i class="fa-solid fa-map-pin"></i>강릉시 석교리 967 2층</span></div> 
@@ -90,10 +125,10 @@
     <div class="swiper-pagination"></div>
   </div>
 
-  <!-- Swiper JS -->
+
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
+
 <script>
 var swiper = new Swiper(".mySwiper", {
   direction: "vertical",
@@ -101,15 +136,14 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
   mousewheel: true,
-  loop: false, // 무한 반복 금지
+  loop: false, 
 });
 
-// 마지막 슬라이드 도달 시 autoplay 정지
 swiper.on("reachEnd", function () {
   swiper.autoplay.stop();
 });
