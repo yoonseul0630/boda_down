@@ -21,7 +21,7 @@
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide section section1"><div class="boda"><img src="./투명.png" width="20%">나를 보다</div>
+      <div class="swiper-slide section section1"><div class="first_boda"><img src="./투명.png" width="20%" class="first_logo">나를 보다</div>
       <!-- 폰 번호 -->
     <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
 
@@ -46,7 +46,17 @@
   </div>
       </div>
 
-        <div class="swiper-slide section section3"><div class="subtitle"><img src="sick.png" alt=""></div>
+        <div class="swiper-slide section section3"><div class="subtitle">
+<video autoplay muted loop width="25%" class="steb_video">
+  <source src="./병든_걸음.webm" type="video/webm">
+  <source src="./병든_걸음.mov" type="video/quicktime">
+  브라우저가 영상을 지원하지 않습니다.
+</video>
+
+
+
+        
+</div>
          <!-- 폰 번호 -->
     <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
 
@@ -95,7 +105,13 @@
       <span></span>      
   </div>
        </div>
-   <div class="swiper-slide section section7"><div class="subtitle">스마일</div>
+   <div class="swiper-slide section section7"><div class="subtitle">
+    <video autoplay muted loop width="25%" class="steb_video">
+  <source src="./당당한_걸음.webm" type="video/webm">
+  <source src="./당당한_걸음.mov" type="video/quicktime">
+  브라우저가 영상을 지원하지 않습니다.
+</video>
+   </div>
         <!-- 폰 번호 -->
     <div class="phone_num"><i class="fa-solid fa-phone"></i>010-9388-8557</div>  
 
@@ -109,7 +125,7 @@
 
       <div class="swiper-slide section8">
         <div class="last_center">
-        <div class="last"><div class="boda"><img src="./투명.png" width="10%">보다<span class="yoga">yoga</span></div></div>
+        <div class="last"><div class="boda"><img src="./투명.png" width="10%" id="last_logo">보다<span class="yoga">yoga</span></div></div>
 
       <div class="map">
        <div class="phone_last"><i class="fa-solid fa-phone"></i>010-9388-8557   <span class="address"><i class="fa-solid fa-map-pin"></i>강릉시 석교리 967 2층</span></div> 
@@ -136,10 +152,10 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 2500,
+  //   disableOnInteraction: false,
+  // },
   mousewheel: true,
   loop: false, 
 });

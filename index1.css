@@ -49,8 +49,15 @@ section{
     font-size: 60px;
  }
 
-  
     .boda{
+        font-family: 'NanumAJumMaJaYu';
+        font-size: 120px;
+        position:relative;
+        display: flex;
+  align-items: center;
+  justify-content: center;
+    }
+    .first_boda{
         font-family: 'NanumAJumMaJaYu';
         font-size: 120px;
         position:relative;
@@ -197,7 +204,18 @@ margin-left: 150px;
 /* 미디어 쿼리 */
 @media (max-width: 767px) {
 
+.first_logo{
+  width:20%;
+margin-right: 20px;
 
+}
+.first_boda{
+  font-size: 70px;
+        font-family: 'NanumAJumMaJaYu';
+}
+.steb_video{
+  width:40%;
+}
 section{
     width: 100%;
     height:100vh;
@@ -230,21 +248,26 @@ section{
  .last{
     
     margin: 0 auto;
-    width:70%;
+    width:90%;
     text-align: center;
   margin-bottom: 30px;
  }
  .yoga{
-    margin-left: 30px;
+    margin-left: 15px;
+    font-size: 50px;
  }
-
+#last_logo{
+  width:25%;
+  margin-right: 10px;
+}
     .boda{
         font-family: 'NanumAJumMaJaYu';
-        font-size: 90px;
+        font-size: 60px;
+        margin-left: -20px;
     }
     .subtitle{
      font-family: 'NanumEuiMiIssNeunHanGeur';
-        font-size: 50px;
+        font-size: 45px;
 
     }
       .subtitle_ver2{
