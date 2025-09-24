@@ -141,6 +141,7 @@ font-weight: bold;
     rgba(210, 245, 210, 1) 80%,
     rgba(255, 255, 255, 1) 100%  /* 마지막은 흰색 */
   );
+  position:relative;
 }
 
 
@@ -209,6 +210,25 @@ margin-left: 150px;
      font-family: 'NanumEuiMiIssNeunHanGeur';
      font-size: 40px;
 
+}
+.last_text{
+   font-family: 'NanumEuiMiIssNeunHanGeur';
+     font-size: 45px;
+     font-weight: bold;
+     margin-top: 80px;
+}
+.last_text div{
+  margin-bottom: 40px;
+}
+.link{
+  font-size: 25px;
+  margin-top: 25px;
+}
+a{
+text-decoration: none;
+   font-family: 'NanumEuiMiIssNeunHanGeur';
+color: #000;
+font-weight: bold;
 }
 /* 미디어 쿼리 */
 @media (max-width: 767px) {
@@ -323,7 +343,7 @@ font-weight: bold;
 .address{
     display: block;
 margin: 0;
-    font-size: 35px;
+    font-size: 25px;
      font-family: 'NanumEuiMiIssNeunHanGeur';
      font-weight: bold;
      margin-top: 20px;
@@ -349,5 +369,21 @@ margin: 0;
 }
 .eye_video{
   width:80%;
+}
+.last_text{
+   font-family: 'NanumEuiMiIssNeunHanGeur';
+     font-size: 22px;
+     font-weight: bold;
+     margin-top: 40px;
+}
+.last_text div{
+  margin-bottom: 20px;
+}
+.div_box{
+  display: block;
+}
+.link{
+  font-size: 15px;
+  margin-top: 25px;
 }
 }
