@@ -59,7 +59,7 @@ overflow: hidden;
     }
     .first_boda{
         font-family: 'NanumAJumMaJaYu';
-        font-size: 120px;
+        font-size: 140px;
         position:relative;
         display: flex;
   align-items: center;
@@ -119,6 +119,7 @@ font-weight: bold;
     rgba(180, 230, 180, 1) 80%,
     rgba(190, 235, 190, 1) 100%
   );
+  position: relative;
 }
 
 .section6 {
@@ -200,6 +201,14 @@ margin-left: 150px;
 }
 .address i{
   color: red;
+}
+.eye_text{
+  position:absolute;
+  top:70%;
+  right:30%;
+     font-family: 'NanumEuiMiIssNeunHanGeur';
+     font-size: 40px;
+
 }
 /* 미디어 쿼리 */
 @media (max-width: 767px) {
@@ -326,5 +335,19 @@ margin: 0;
     left: 50%;
     height:80%;
     transform: translate(-50%,-50%);
+}
+.section51{
+  position:relative;
+}
+.eye_text{
+  position:absolute;
+  top:58%;
+  right:12%;
+     font-family: 'NanumEuiMiIssNeunHanGeur';
+     font-size: 25px;
+
+}
+.eye_video{
+  width:80%;
 }
 }
