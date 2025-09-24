@@ -16,7 +16,7 @@ section{
     padding-left: 30px;
     font-weight: bold;
     font-size: 70px;
-
+overflow: hidden;
 } 
     body {
       font-size: 14px;
