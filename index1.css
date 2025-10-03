@@ -68,11 +68,14 @@ overflow: hidden;
     .subtitle{
      font-family: 'NanumEuiMiIssNeunHanGeur';
         font-size: 120px;
+        font-weight: bold;
 
     }
       .subtitle_ver2{
      font-family: 'NanumEuiMiIssNeunHanGeur';
         font-size: 120px;
+        font-weight: bold;
+
     }
     .phone_num{
 position:absolute;
@@ -209,7 +212,7 @@ margin-left: 150px;
   right:30%;
      font-family: 'NanumEuiMiIssNeunHanGeur';
      font-size: 40px;
-
+font-weight: lighter;
 }
 .last_text{
    font-family: 'NanumEuiMiIssNeunHanGeur';
@@ -298,11 +301,12 @@ margin: 0;
     .subtitle{
      font-family: 'NanumEuiMiIssNeunHanGeur';
         font-size: 45px;
-
+font-weight: bold;
     }
       .subtitle_ver2{
      font-family: 'NanumEuiMiIssNeunHanGeur';
         font-size: 120px;
+        font-weight: bold;
     }
     .phone_num{
 position:absolute;
@@ -365,7 +369,7 @@ margin: 0;
   right:12%;
      font-family: 'NanumEuiMiIssNeunHanGeur';
      font-size: 25px;
-
+font-weight: lighter;
 }
 .eye_video{
   width:80%;
